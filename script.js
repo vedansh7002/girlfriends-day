@@ -8,6 +8,6 @@ document.getElementById("startBtn").addEventListener("click", function(){
 
 document.querySelector(".hero").style.display="none";
 
-document.getElementById("letterSection").classList.remove("hidden");
+document.getElementById("letterSection").style.display = "flex";
 
 });
