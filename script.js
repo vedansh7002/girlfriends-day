@@ -4,6 +4,10 @@ window.onload = () => {
   }, 2500);
 };
 
-document.getElementById("startBtn").onclick = function () {
-  alert("Part 2 me Love Letter khulega ❤️");
-};
+document.getElementById("startBtn").addEventListener("click", function(){
+
+document.querySelector(".hero").style.display="none";
+
+document.getElementById("letterSection").classList.remove("hidden");
+
+});
